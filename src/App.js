@@ -1,15 +1,13 @@
-import { useState, useEffect } from "react";
+import React from 'react';
+import CounterRenderer from './Components/CounterRenderer.js';
+
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setCount(() => count + 1);
-    }, 1000);
-  }, []);
-
-  return <h1>I've rendered {count} times!</h1>;
+  return (
+  <div>
+    <CounterRenderer />
+  </div>
+  )
 }
 
 export default App;
