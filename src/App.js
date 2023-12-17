@@ -1,11 +1,11 @@
 import React from 'react';
-import CounterRenderer from './Components/CounterRenderer.js';
+import MyRefComponent from './Components/MyRefComponent';
 
 
 function App() {
   return (
   <div>
-    <CounterRenderer />
+    <MyRefComponent />
   </div>
   )
 }
